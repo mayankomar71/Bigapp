@@ -6,10 +6,10 @@ class Input extends React.Component {
         const style={
             width:"100%",
             textAlign:"center"
-
+           
         }
         return (
-            <div >
+            <div>
 
            
                 <label htmlFor={this.props.name} className="form-label">{this.props.title}</label>

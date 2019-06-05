@@ -14,11 +14,7 @@ class HomeComponent extends Component {
       isloggedIn: localStorage.getItem('isLoggedIn'),
   
     }
-
-
-
-
-  }
+}
  
   componentWillMount(){
     axios.get('https://jsonplaceholder.typicode.com/users').then((res) => {
